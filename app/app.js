@@ -127,7 +127,7 @@ var diretowContent = `<div class="container">
     <div id="left">
         <div id="diretow-img1" class="img"></div>
         <div id="diretow-img2" class="img"></div>
-        <a href="../resources/documents/TicTacDie.pdf">Diretow Design Document</a>
+        <a href="/Portfolio/resources/documents/TicTacDie.pdf">Diretow Design Document</a>
     </div>
     <div id="right">
         <div id="diretow-info">
@@ -150,7 +150,7 @@ var shadowgateContent = `<div class="container">
     <div id="left">
         <div id="shadowgate-img1" class="img"></div>
         <div id="shadowgate-img2" class="img"></div>
-        <a href="../resources/documents/Pixels2Papers.pdf">Shadowgate Design Document</a>
+        <a href="/Portfolio/resources/documents/Pixels2Papers.pdf">Shadowgate Design Document</a>
     </div>
     <div id="right">
         <div id="shadowgate-info">
@@ -202,7 +202,7 @@ var lockContent = `<div class="container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gERn_t1sXtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div>
-    <a href="../resources/documents/MidtermDesignDoc-Richey.pdf">Design Document</a>
+    <a href="Portfolio/resources/documents/MidtermDesignDoc-Richey.pdf">Design Document</a>
 </div>
 </div>`;
 
@@ -373,23 +373,23 @@ var conceptsContent = `<div class="container">
 
 // showHomeContent()
 function showHomeContent() {
-    $("#content").html(homeContent);
-    initListeners();
+  $("#content").html(homeContent);
+  initListeners();
 } // showHomeContent()
 
 // initListeners()
 function initListeners() {
-    $(".link").click(function (e) {
-        let btnID = this.id;
-        let contentID = btnID + "Content";
+  $(".link").click(function (e) {
+    let btnID = this.id;
+    let contentID = btnID + "Content";
 
-        $("#content").html(eval(contentID));
-        console.log(contentID);
-        initListeners();
-    })
+    $("#content").html(eval(contentID));
+    console.log(contentID);
+    initListeners();
+  });
 }
 
 // document.ready(function())
 $(document).ready(function () {
-    showHomeContent();
+  showHomeContent();
 }); // document.ready()

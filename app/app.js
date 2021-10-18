@@ -202,7 +202,7 @@ var lockContent = `<div class="container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gERn_t1sXtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div>
-    <a href="Portfolio/resources/documents/MidtermDesignDoc-Richey.pdf">Design Document</a>
+    <a href="/resources/documents/MidtermDesignDoc-Richey.pdf">Design Document</a>
 </div>
 </div>`;
 

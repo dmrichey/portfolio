@@ -1,341 +1,351 @@
 /* DEFAULT STYLING */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body {
-    min-height: 100%;
-    background-color: #222;
+html,
+body {
+  min-height: 100%;
+  background-color: #222;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin-bottom: 16px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
 }
 
 #content {
-    padding-top: 96px;
-    background-color: #444;
-    width: 67%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding-top: 96px;
+  background-color: #444;
+  width: 67%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* NAV STYLES */
 
 nav {
-    width: 100%;
-    height: 80px;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background-color: #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #right-nav {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #left-nav {
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 /* HOME STYLES */
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    color:#fff;
-    margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  color: #fff;
+  margin-bottom: 32px;
 }
 
 .item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 16px;
-    margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .item-img {
-    height: 200px;
-    width: 200px;
-    /* background-color: #119; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  height: 200px;
+  width: 200px;
+  /* background-color: #119; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .item-text {
-    width: 75%;
-    height: 200px;
+  width: 75%;
+  height: 200px;
 }
 
 .item-text a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5em;
-    font-weight: bolder;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 .item-text p {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 /* PAGE STYLES */
 
 .img {
-    height: 200px;
-    width: 200px;
-    /* background-color: #119; */
-    margin-bottom: 16px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+  height: 200px;
+  width: 200px;
+  /* background-color: #119; */
+  margin-bottom: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.info { 
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.info {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #left {
-    width: 25%;
+  width: 25%;
 }
 
 #right {
-    width: 65%;
+  width: 65%;
 }
 
 .anim-img {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .concept {
-    margin-top: 16px;
-    margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .text {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .img-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 16px;
-    margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* ATTACHING IMAGES */
 
 /* HOME */
+#profile-pic {
+  background-image: url("../resources/images/ProfilePic.jpg");
+}
 #diretow-img {
-    background-image: url("../resources/images/Diretow1.png");
+  background-image: url("../resources/images/Diretow1.png");
 }
 #shadowgate-img {
-    background-image: url("../resources/images/Shadowgate1.png");
+  background-image: url("../resources/images/Shadowgate1.png");
 }
 #curse-img {
-    background-image: url("../resources/images/CurseThumb.PNG");
+  background-image: url("../resources/images/CurseThumb.PNG");
 }
 #lock-img {
-    background-image: url("../resources/images/Lock2.png");
+  background-image: url("../resources/images/Lock2.png");
 }
 #solar-img {
-    background-image: url("../resources/images/SolarThumb.PNG");
+  background-image: url("../resources/images/SolarThumb.PNG");
 }
 #concepts-img {
-    background-image: url("../resources/images/Convergence1.png");
+  background-image: url("../resources/images/Convergence1.png");
 }
 
 /* DIRETOW */
 #diretow-img1 {
-    background-image: url("../resources/images/Diretow1.png");
+  background-image: url("../resources/images/Diretow1.png");
 }
 #diretow-img2 {
-    background-image: url("../resources/images/Diretow2.png");
+  background-image: url("../resources/images/Diretow2.png");
 }
 
 /* SHADOWGATE */
 #shadowgate-img1 {
-    background-image: url("../resources/images/Shadowgate1.png");
+  background-image: url("../resources/images/Shadowgate1.png");
 }
 #shadowgate-img2 {
-    background-image: url("../resources/images/Shadowgate2.png");
+  background-image: url("../resources/images/Shadowgate2.png");
 }
 
 /* SOLAR */
 #ship1-img1 {
-    background-image: url("../resources/images/Ship1_1.jpg");
+  background-image: url("../resources/images/Ship1_1.jpg");
 }
 #ship1-img2 {
-    background-image: url("../resources/images/Ship1_2.jpg");
+  background-image: url("../resources/images/Ship1_2.jpg");
 }
 #ship1-img3 {
-    background-image: url("../resources/images/Ship1_3.jpg");
+  background-image: url("../resources/images/Ship1_3.jpg");
 }
 #ship2-img1 {
-    background-image: url("../resources/images/Ship2_1.jpg");
+  background-image: url("../resources/images/Ship2_1.jpg");
 }
 #ship2-img2 {
-    background-image: url("../resources/images/Ship2_2.jpg");
+  background-image: url("../resources/images/Ship2_2.jpg");
 }
 #ship2-img3 {
-    background-image: url("../resources/images/Ship2_3.jpg");
+  background-image: url("../resources/images/Ship2_3.jpg");
 }
 
 /* CONCEPTS */
 #lock1 {
-    background-image: url("../resources/images/Lock1.png");
+  background-image: url("../resources/images/Lock1.png");
 }
 #lock2 {
-    background-image: url("../resources/images/Lock2.png");
+  background-image: url("../resources/images/Lock2.png");
 }
 #lock3 {
-    background-image: url("../resources/images/Lock3.png");
+  background-image: url("../resources/images/Lock3.png");
 }
 #lock4 {
-    background-image: url("../resources/images/Lock4.png");
+  background-image: url("../resources/images/Lock4.png");
 }
 #lock5 {
-    background-image: url("../resources/images/Lock5.png");
+  background-image: url("../resources/images/Lock5.png");
 }
 #lock6 {
-    background-image: url("../resources/images/Lock6.png");
+  background-image: url("../resources/images/Lock6.png");
 }
 #lock7 {
-    background-image: url("../resources/images/Lock7.png");
+  background-image: url("../resources/images/Lock7.png");
 }
 
 #horror1 {
-    background-image: url("../resources/images/Horror1.png");
+  background-image: url("../resources/images/Horror1.png");
 }
 #horror2 {
-    background-image: url("../resources/images/Horror2.png");
+  background-image: url("../resources/images/Horror2.png");
 }
 
 #party1 {
-    background-image: url("../resources/images/Party1.png");
+  background-image: url("../resources/images/Party1.png");
 }
 #party2 {
-    background-image: url("../resources/images/Party2.png");
+  background-image: url("../resources/images/Party2.png");
 }
 #party3 {
-    background-image: url("../resources/images/Party4.png");
+  background-image: url("../resources/images/Party4.png");
 }
 #party4 {
-    background-image: url("../resources/images/Party3.jpg");
+  background-image: url("../resources/images/Party3.jpg");
 }
 
 #fall1 {
-    background-image: url("../resources/images/Fall1.jpg");
+  background-image: url("../resources/images/Fall1.jpg");
 }
 #fall2 {
-    background-image: url("../resources/images/Fall2.PNG");
+  background-image: url("../resources/images/Fall2.PNG");
 }
 #fall3 {
-    background-image: url("../resources/images/Fall3.PNG");
+  background-image: url("../resources/images/Fall3.PNG");
 }
 #fall4 {
-    background-image: url("../resources/images/Fall4.PNG");
+  background-image: url("../resources/images/Fall4.PNG");
 }
 #fall5 {
-    background-image: url("../resources/images/Fall5.PNG");
+  background-image: url("../resources/images/Fall5.PNG");
 }
 
 #hades1 {
-    background-image: url("../resources/images/Hades1.png");
+  background-image: url("../resources/images/Hades1.png");
 }
 #hades2 {
-    background-image: url("../resources/images/Hades2.png");
+  background-image: url("../resources/images/Hades2.png");
 }
 
 #fighter1 {
-    background-image: url("../resources/images/Fighter1.png");
+  background-image: url("../resources/images/Fighter1.png");
 }
 #fighter2 {
-    background-image: url("../resources/images/Fighter2.png");
+  background-image: url("../resources/images/Fighter2.png");
 }
 
 #lovecraft1 {
-    background-image: url("../resources/images/Lovecraft1.png");
+  background-image: url("../resources/images/Lovecraft1.png");
 }
 #lovecraft2 {
-    background-image: url("../resources/images/Lovecraft2.png");
+  background-image: url("../resources/images/Lovecraft2.png");
 }
 
 #dragons1 {
-    background-image: url("../resources/images/Dragon1.png");
+  background-image: url("../resources/images/Dragon1.png");
 }
 #dragons2 {
-    background-image: url("../resources/images/Dragon2.png");
+  background-image: url("../resources/images/Dragon2.png");
 }
 #dragons3 {
-    background-image: url("../resources/images/Dragon3.png");
+  background-image: url("../resources/images/Dragon3.png");
 }
 #dragons4 {
-    background-image: url("../resources/images/Dragon4.png");
+  background-image: url("../resources/images/Dragon4.png");
 }
 
 #siege1 {
-    background-image: url("../resources/images/Siege1.png");
+  background-image: url("../resources/images/Siege1.png");
 }
 #siege2 {
-    background-image: url("../resources/images/Siege2.jpg");
+  background-image: url("../resources/images/Siege2.jpg");
 }
 #siege3 {
-    background-image: url("../resources/images/Siege3.jpg");
+  background-image: url("../resources/images/Siege3.jpg");
 }
 
 #conv1 {
-    background-image: url("../resources/images/Convergence1.png");
+  background-image: url("../resources/images/Convergence1.png");
 }
 #conv2 {
-    background-image: url("../resources/images/Convergence2.png");
+  background-image: url("../resources/images/Convergence2.png");
 }
 #conv3 {
-    background-image: url("../resources/images/Convergence3.png");
+  background-image: url("../resources/images/Convergence3.png");
 }
 #conv4 {
-    background-image: url("../resources/images/Convergence4.png");
+  background-image: url("../resources/images/Convergence4.png");
 }

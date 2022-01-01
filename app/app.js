@@ -1,18 +1,11 @@
-var homeContent = `<div id="analog-home" class="container">
-<h1>ANALOG PROJECTS</h1>
+var homeContent = `<div id="about-home" class="container">
+<h1>Portfolio - Devon Richey</h1>
 <div class="item">
-    <div id="diretow-img" class="item-img"></div>
-    <div id="diretow-text" class="item-text">
-        <a id="diretow" class="link" href="#">The Town of Diretow</a>
-        <p>The Town of Diretow is a reimagining of the classic game of Tic-Tac-Toe with a twist: the inclusion of random chance at the roll of a die. Players take on the role of merchants vying for control of the town of Die-or-Toe, using their influence to purchase property and hire mercenaries to be the first to achieve dominance in the town.</p>
+    <div id="profile-pic" class="item-img"></div>
+    <div id="about-text" class="item-text">
+        <h2>About Me</h2>
+        <p>I am a current student in the Media Arts and Science program at IUPUI majoring in Game Design and Development. I have experience developing games in both Unreal Engine and Unity, and experience programming in C/C++ and JavaScript. My passion is developing the world and narrative of the games I work on.</p>
     </div>
-</div>
-<div class="item">
-    <div id="shadowgate-text" class="item-text">
-        <a id="shadowgate" class="link" href="#">Shadowgate: Dice</a>
-        <p>Shadowgate: Dice is an adaptation of the game Shadowgate which was originally released on the Apple Macintosh in 1987 and later released on the NES. This adaptation attempts to capture the essence of the original in a fresh, unique manner as a dice game, in which up to six players race through the titular Castle Shadowgate by rolling specific sets of symbols to progress through a sequence of screens.</p>
-    </div>
-    <div id="shadowgate-img" class="item-img" class="link"></div>
 </div>
 </div>
 <div id="digital-home" class="container">
@@ -30,23 +23,6 @@ var homeContent = `<div id="analog-home" class="container">
         <p>The Lock is a puzzle centered level functioning as part of a larger action RPG originally developed as a midterm project for Intro to Game Design. The player takes on the role of an explorer, delving into the ruins of an ancient labyrinth in search of the forbidden knowledge and treasure held within.</p>
     </div>
     <div id="lock-img" class="item-img" class="link"></div>
-</div>
-<!-- <div class="item">
-    <div id="horror-img" class="item-img" class="link"></div>
-    <div id="horror-text" class="item-text">
-        <a id="horror" class="link" href="#">The Last Message</a>
-        <p>The Last Message is an exploration based thriller, in which the player traverses the home of their recently deceased friend and must discover the truth behind their death.</p>
-    </div>
-</div> -->
-</div>
-<div id="animation-home" class="container">
-<h1>ANIMATION & 3D PROJECTS</h1>
-<div class="item">
-    <div id="solar-img" class="item-img" class="link"></div>
-    <div id="solar-text" class="item-text">
-        <a id="solar" class="link" href="#">Solar System Animation - Invasion</a>
-        <p></p>
-    </div>
 </div>
 </div>
 <div id="concepts-home" class="container">

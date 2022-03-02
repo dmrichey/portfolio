@@ -15,12 +15,14 @@ var homeContent = `<div id="about-home" class="container">
     <div id="curse-text" class="item-text">
         <a id="curse" class="link" href="#">Curse</a>
         <p>Curse is an action adventure RPG developed in collaboration with Jordan McMorris and Mason Sanders as our final for Intro to Game Design. The player takes on the role of Indra, a werewolf and last surviving member of the Royal family, and must hunt down the Vampiric Lords and claim their powers in order to take down their leader, Mortifier.</p>
+        <p id="curse" class="link" href="#">Click Here For More Information.</p>
     </div>
 </div>
 <div class="item">
     <div id="lock-text" class="item-text">
         <a id="lock" class="link" href="#">The Lock</a>
         <p>The Lock is a puzzle centered level functioning as part of a larger action RPG originally developed as a midterm project for Intro to Game Design. The player takes on the role of an explorer, delving into the ruins of an ancient labyrinth in search of the forbidden knowledge and treasure held within.</p>
+        <p id="lock" class="link" href="#">Click Here For More Information.</p>
     </div>
     <div id="lock-img" class="item-img" class="link"></div>
 </div>
@@ -32,6 +34,7 @@ var homeContent = `<div id="about-home" class="container">
     <div id="concepts-text" class="item-text">
         <a id="concepts" class="link" href="#">Game Concepts</a>
         <p>A collection of sketches, concept art, and notes about a variety of theoretical and current projects.</p>
+        <p id="concepts" class="link" href="#">Click Here For More Information.</p>
     </div>
 </div>
 </div>`;
@@ -43,12 +46,14 @@ var analogContent = `<div id="analog-home" class="container">
     <div id="diretow-text" class="item-text">
         <a id="diretow" class="link" href="#">The Town of Diretow</a>
         <p>The Town of Diretow is a reimagining of the classic game of Tic-Tac-Toe with a twist: the inclusion of random chance at the roll of a die. Players take on the role of merchants vying for control of the town of Die-or-Toe, using their influence to purchase property and hire mercenaries to be the first to achieve dominance in the town.</p>
+        <p id="diretow" class="link" href="#">Click Here For More Information.</p>
     </div>
 </div>
 <div class="item">
     <div id="shadowgate-text" class="item-text">
         <a id="shadowgate" class="link" href="#">Shadowgate: Dice</a>
         <p>Shadowgate: Dice is an adaptation of the game Shadowgate which was originally released on the Apple Macintosh in 1987 and later released on the NES. This adaptation attempts to capture the essence of the original in a fresh, unique manner as a dice game, in which up to six players race through the titular Castle Shadowgate by rolling specific sets of symbols to progress through a sequence of screens.</p>
+        <p id="diretow" class="link" href="#">Click Here For More Information.</p>    
     </div>
     <div id="shadowgate-img" class="item-img" class="link"></div>
 </div>
@@ -61,22 +66,17 @@ var digitalContent = `<div id="digital-home" class="container">
     <div id="curse-text" class="item-text">
         <a id="curse" class="link" href="#">Curse</a>
         <p>Curse is an action adventure RPG developed in collaboration with Jordan McMorris and Mason Sanders as our final for Intro to Game Design. The player takes on the role of Indra, a werewolf and last surviving member of the Royal family, and must hunt down the Vampiric Lords and claim their powers in order to take down their leader, Mortifier.</p>
+        <p id="curse" class="link" href="#">Click Here For More Information.</p>    
     </div>
 </div>
 <div class="item">
     <div id="lock-text" class="item-text">
         <a id="lock" class="link" href="#">The Lock</a>
         <p>The Lock is a puzzle centered level functioning as part of a larger action RPG originally developed as a midterm project for Intro to Game Design. The player takes on the role of an explorer, delving into the ruins of an ancient labyrinth in search of the forbidden knowledge and treasure held within.</p>
+        <p id="lock" class="link" href="#">Click Here For More Information.</p>    
     </div>
     <div id="lock-img" class="item-img" class="link"></div>
 </div>
-<!-- <div class="item">
-    <div id="horror-img" class="item-img" class="link"></div>
-    <div id="horror-text" class="item-text">
-        <a id="horror" class="link" href="#">The Last Message</a>
-        <p>The Last Message is an exploration based thriller, in which the player traverses the home of their recently deceased friend and must discover the truth behind their death.</p>
-    </div>
-</div> -->
 </div>`;
 
 var animationContent = `<div id="animation-home" class="container">
@@ -85,13 +85,14 @@ var animationContent = `<div id="animation-home" class="container">
     <div id="solar-img" class="item-img" class="link"></div>
     <div id="solar-text" class="item-text">
         <a id="solar" class="link" href="#">Solar System Animation - Invasion</a>
-        <p></p>
+        <p id="solar" class="link" href="#">Click Here For More Information.</p>
     </div>
 </div>
 <div class="item">
     <div id="lock-text" class="item-text">
         <a id="lock" class="link" href="#">The Lock</a>
         <p>The Lock is a puzzle centered level functioning as part of a larger action RPG originally developed as a midterm project for Intro to Game Design. The player takes on the role of an explorer, delving into the ruins of an ancient labyrinth in search of the forbidden knowledge and treasure held within.</p>
+        <p id="lock" class="link" href="#">Click Here For More Information.</p>    
     </div>
     <div id="lock-img" class="item-img" class="link"></div>
 </div>

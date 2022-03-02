@@ -4,7 +4,8 @@ var homeContent = `<div id="about-home" class="container">
     <div id="profile-pic" class="item-img"></div>
     <div id="about-text" class="item-text">
         <h2>About Me</h2>
-        <p>I am a current student in the Media Arts and Science program at IUPUI majoring in Game Design and Development. I have experience developing games in both Unreal Engine and Unity, and experience programming in C/C++ and JavaScript. My passion is developing the world and narrative of the games I work on.</p>
+        <p>After a two year period studying Computer Science at the University of Kentucky, I attended IUPUI to major in Game Design and Development and minor in Computer Science. I have experience developing small scale projects in both team and solo environments in the Unreal and Unity game engines. I have programming experience in multiple languages, including C, C++, and JavaScript.</p>
+        <p>My focus in developing games is crafting detailed worlds for the players to explore. Whether shown through the open world of a role-playing game, or through the more limited view of a linear experience, the stories these games are able to tell are the core of the experience I strive to deliver. </p>
     </div>
 </div>
 </div>

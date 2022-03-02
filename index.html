@@ -10,11 +10,26 @@
   <body>
     <nav>
       <div id="left-nav">
+        <a id="open-nav" class="nav-button" onclick="openNav()">&#9776</a>
+      </div>
+      <div id="right-nav">
         <a id="home" class="link" href="#"
           >Devon Richey - Game Development Portfolio</a
         >
       </div>
-      <div id="right-nav">
+    </nav>
+
+    <nav id="side-nav" class="side-nav">
+      <div class="side-nav-buttons">
+        <a
+          href="javascript:void(0)"
+          id="close-nav"
+          class="nav-button"
+          onclick="closeNav()"
+          >&times</a
+        >
+      </div>
+      <div class="main-nav">
         <a id="analog" class="link" href="#">Analog Games</a>
         <a id="digital" class="link" href="#">Digital Games</a>
         <a id="animation" class="link" href="#">Animation and 3D Work</a>

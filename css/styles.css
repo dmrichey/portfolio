@@ -54,7 +54,7 @@ nav {
 }
 
 #right-nav {
-  width: 45%;
+  width: 25%;
   height: 100%;
   display: flex;
   justify-content: space-around;
@@ -62,10 +62,10 @@ nav {
 }
 
 #left-nav {
-  width: 20%;
+  width: 5%;
   height: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -73,6 +73,43 @@ nav a {
   color: #fff;
   text-decoration: none;
   font-size: 18px;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: #1d1d1d;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  /* transition: 0.5s; */
+  /* padding-top: 60px; */
+}
+
+.side-nav-buttons {
+  height: 96px;
+  padding: 16px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.main-nav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  /* color: #ededec; */
+  display: block;
+  /* transition: 0.3s; */
+  /* font-size: 32px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
 }
 
 /* HOME STYLES */

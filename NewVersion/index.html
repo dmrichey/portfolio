@@ -5,74 +5,269 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devon Richey - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="app">
-        <div id="header"></div>
-        <div id="about-section"></div>
-        <div id="project-banner"></div>
-        <div class="project-container">
-            <div class="project-overview">
-                <div class="content">
-                    <div class="thumbnail"></div>
-                    <div class="project-info"></div>
+        <div id="loading">
+            <div class="loadingio-spinner-double-ring-vvf7reax09">
+                <div class="ldio-mtnh8768sve">
+                    <div></div>
+                    <div></div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
                 </div>
-                <div class="open-details"></div>
             </div>
-            <div class="project-details"></div>
+            <style type="text/css">
+                @keyframes ldio-mtnh8768sve {
+                  0% { transform: rotate(0) }
+                  100% { transform: rotate(360deg) }
+                }
+                .ldio-mtnh8768sve div { box-sizing: border-box!important }
+                .ldio-mtnh8768sve > div {
+                  position: absolute;
+                  width: 144px;
+                  height: 144px;
+                  top: 28px;
+                  left: 28px;
+                  border-radius: 50%;
+                  border: 16px solid #000;
+                  border-color: #484848 transparent #484848 transparent;
+                  animation: ldio-mtnh8768sve 4s linear infinite;
+                }
+                
+                .ldio-mtnh8768sve > div:nth-child(2), .ldio-mtnh8768sve > div:nth-child(4) {
+                  width: 108px;
+                  height: 108px;
+                  top: 46px;
+                  left: 46px;
+                  animation: ldio-mtnh8768sve 4s linear infinite reverse;
+                }
+                .ldio-mtnh8768sve > div:nth-child(2) {
+                  border-color: transparent #858585 transparent #858585
+                }
+                .ldio-mtnh8768sve > div:nth-child(3) { border-color: transparent }
+                .ldio-mtnh8768sve > div:nth-child(3) div {
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  transform: rotate(45deg);
+                }
+                .ldio-mtnh8768sve > div:nth-child(3) div:before, .ldio-mtnh8768sve > div:nth-child(3) div:after { 
+                  content: "";
+                  display: block;
+                  position: absolute;
+                  width: 16px;
+                  height: 16px;
+                  top: -16px;
+                  left: 48px;
+                  background: #484848;
+                  border-radius: 50%;
+                  box-shadow: 0 128px 0 0 #484848;
+                }
+                .ldio-mtnh8768sve > div:nth-child(3) div:after {
+                  left: -16px;
+                  top: 48px;
+                  box-shadow: 128px 0 0 0 #484848;
+                }
+                
+                .ldio-mtnh8768sve > div:nth-child(4) { border-color: transparent; }
+                .ldio-mtnh8768sve > div:nth-child(4) div {
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  transform: rotate(45deg);
+                }
+                .ldio-mtnh8768sve > div:nth-child(4) div:before, .ldio-mtnh8768sve > div:nth-child(4) div:after {
+                  content: "";
+                  display: block;
+                  position: absolute;
+                  width: 16px;
+                  height: 16px;
+                  top: -16px;
+                  left: 30px;
+                  background: #858585;
+                  border-radius: 50%;
+                  box-shadow: 0 92px 0 0 #858585;
+                }
+                .ldio-mtnh8768sve > div:nth-child(4) div:after {
+                  left: -16px;
+                  top: 30px;
+                  box-shadow: 92px 0 0 0 #858585;
+                }
+                .loadingio-spinner-double-ring-vvf7reax09 {
+                  width: 200px;
+                  height: 200px;
+                  display: inline-block;
+                  overflow: hidden;
+                  background: #111111;
+                }
+                .ldio-mtnh8768sve {
+                  width: 100%;
+                  height: 100%;
+                  position: relative;
+                  transform: translateZ(0) scale(1);
+                  backface-visibility: hidden;
+                  transform-origin: 0 0; /* see note above */
+                }
+                .ldio-mtnh8768sve div { box-sizing: content-box; }
+                /* generated by https://loading.io/ */
+            </style>
+            <a href="loading.io" id="attribution">Spinner by Loading.io</a>
         </div>
-        <div class="project-container">
-            <div class="project-overview">
-                <div class="content">
-                    <div class="thumbnail"></div>
-                    <div class="project-info"></div>
+        <div id="web">
+            <div id="header">
+                <div>
+                    <a href="#" id="page-title">Devon Richey</a>
                 </div>
-                <div class="open-details"></div>
-            </div>
-            <div class="project-details"></div>
-        </div>
-        <div class="project-container">
-            <div class="project-overview">
-                <div class="content">
-                    <div class="thumbnail"></div>
-                    <div class="project-info"></div>
+                <div>
+                    <a href="#about-section">About</a>
+                    <a href="#project-banner">Projects</a>
+                    <a href="#contact">Contact</a>
                 </div>
-                <div class="open-details"></div>
             </div>
-            <div class="project-details"></div>
-        </div>
-        <div class="project-container">
-            <div class="project-overview">
-                <div class="content">
-                    <div class="thumbnail"></div>
-                    <div class="project-info"></div>
+            <div id="about-section-web">
+                <div id="headshot" class="thumbnail"></div>
+                <div id="about-me">
+                    <h3>About Me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor aspernatur natus numquam quia, aperiam molestias commodi nulla, quaerat nihil eos asperiores magnam. Asperiores, laboriosam. Culpa eum atque earum minima.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil doloribus corporis laboriosam commodi iste, minima ex impedit quis quod fuga! Suscipit voluptas repudiandae placeat quaerat culpa ad possimus vero?</p>
+                </div> 
+                <div id="logo" class="thumbnail"></div>
+            </div>
+            <div id="about-section-tab">
+                <div id="about-images">
+                    <div id="headshot" class="thumbnail"></div>
+                    <div id="logo" class="thumbnail"></div>
                 </div>
-                <div class="open-details"></div>
+                <div id="about-me">
+                    <h3>About Me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor aspernatur natus numquam quia, aperiam molestias commodi nulla, quaerat nihil eos asperiores magnam. Asperiores, laboriosam. Culpa eum atque earum minima.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil doloribus corporis laboriosam commodi iste, minima ex impedit quis quod fuga! Suscipit voluptas repudiandae placeat quaerat culpa ad possimus vero?</p>
+                </div>  
             </div>
-            <div class="project-details"></div>
-        </div>
-        <div class="project-container">
-            <div class="project-overview">
-                <div class="content">
-                    <div class="thumbnail"></div>
-                    <div class="project-info"></div>
+            <div id="about-section-mobile">
+                <div id="headshot" class="thumbnail"></div>
+                <div id="about-me">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor aspernatur natus numquam quia, aperiam molestias commodi nulla, quaerat nihil eos asperiores magnam. Asperiores, laboriosam. Culpa eum atque earum minima.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil doloribus corporis laboriosam commodi iste, minima ex impedit quis quod fuga! Suscipit voluptas repudiandae placeat quaerat culpa ad possimus vero?</p>
+                </div> 
+                <div id="logo" class="thumbnail"></div>
+            </div>
+            <div id="project-banner">Highlighted Projects</div>
+            <div class="project-container">
+                <div class="project-overview">
+                    <div class="content">
+                        <div class="thumbnail"></div>
+                        <div class="project-info">
+                            <a href="https://rxddragonblade.itch.io/arx-mysterium">
+                                Project Title: Arx Mysterium (Prototype)
+                            </a>
+                            <p>Project Type: Solo Development</p>
+                            <p>Summary: </p>
+                        </div>
+                        <div class="thumbnail buffer"></div>
+                    </div>
                 </div>
-                <div class="open-details"></div>
+                <button type="button" class="open-details">More Info</button>
+                <div class="project-details"></div>
             </div>
-            <div class="project-details"></div>
-        </div>
-        <div class="project-container">
-            <div class="project-overview">
-                <div class="content">
-                    <div class="thumbnail"></div>
-                    <div class="project-info"></div>
+            <div class="project-container">
+                <div class="project-overview">
+                    <div class="content">
+                        <div class="thumbnail"></div>
+                        <div class="project-info">
+                            <p>Project Title: The Mystery of Vee Island</p>
+                            <p>Project Type: Contract with Crane Naval Base</p>
+                            <p>Role: Programmer</p>
+                            <p>Summary: </p>
+                        </div>
+                        <div class="thumbnail buffer"></div>
+                    </div>
                 </div>
-                <div class="open-details"></div>
+                <button type="button" class="open-details">More Info</button>
+                <div class="project-details"></div>
             </div>
-            <div class="project-details"></div>
+            <div class="project-container">
+                <div class="project-overview">
+                    <div class="content">
+                        <div class="thumbnail"></div>
+                        <div class="project-info">
+                            <a href="https://ethmize.itch.io/rosa">
+                                Project Title: Rosa
+                            </a>
+                            <p>Project Type: Indie Group Development</p>
+                            <p>Role: Lead Programmer</p>
+                            <p>Summary: </p>
+                        </div>
+                        <div class="thumbnail buffer"></div>
+                    </div>
+                </div>
+                <button type="button" class="open-details">More Info</button>
+                <div class="project-details"></div>
+            </div>
+            <div class="project-container">
+                <div class="project-overview">
+                    <div class="content">
+                        <div class="thumbnail"></div>
+                        <div class="project-info">
+                            <p>Project Title: Birdhouse</p>
+                            <p>Project Type: Contract with Inductance LLC</p>
+                            <p>Role: Level Designer</p>
+                            <p>Summary: </p>
+                        </div>
+                        <div class="thumbnail buffer"></div>
+                    </div>
+                </div>
+                <button type="button" class="open-details">More Info</button>
+                <div class="project-details"></div>
+            </div>
+            <div class="project-container">
+                <div class="project-overview">
+                    <div class="content">
+                        <div class="thumbnail"></div>
+                        <div class="project-info">
+                            <a href="https://dmrichey.itch.io/hallows-eve">
+                                Project Title: Hallow's Eve
+                            </a>
+                            <p>Project Type: Indie Group Development</p>
+                            <p>Role: Programmer</p>
+                            <p>Summary: </p>
+                        </div>
+                        <div class="thumbnail buffer"></div>
+                    </div>
+                </div>
+                <button type="button" class="open-details">More Info</button>
+                <div class="project-details"></div>
+            </div>
+            <div class="project-container">
+                <div class="project-overview">
+                    <div class="content">
+                        <div class="thumbnail"></div>
+                        <div class="project-info">
+                            <p>Project Title: Curse</p>
+                            <p>Project Type: Indie Group Development</p>
+                            <p>Role: Boss Design and Implementation</p>
+                            <p>Summary: </p>
+                        </div>
+                        <div class="thumbnail buffer"></div>
+                    </div>
+                </div>
+                <button type="button" class="open-details">More Info</button>
+                <div class="project-details"></div>
+            </div>
+            <div id="contact">
+                
+            </div>
+            <div id="footer"></div>
         </div>
-        <div id="contact"></div>
-        <div id="footer"></div>
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

@@ -431,6 +431,20 @@ p {
     background-repeat: no-repeat;
 }
 
+#vee-dialogue {
+    background-image: url("images/Vee_Dialogue.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#vee-wander {
+    background-image: url("images/Vee_Wander.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .thumbnail {
     min-width: 200px;
     min-height: 200px;

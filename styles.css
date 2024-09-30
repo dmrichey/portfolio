@@ -297,6 +297,30 @@ p {
     color: #dddddd;
 }
 
+#ArcadeThumb {
+    background-image: url(images/ArcadeThumb.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#FarmThumb {
+    background-image: url(images/FarmThumb.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#CrabThumb {
+    background-image: url(images/CrabThumb.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #ArxThumb {
     background-image: url(images/Thumb_Square.png);
     
@@ -424,6 +448,51 @@ p {
 
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+#arcade-gameplay {
+    background-image: url("images/ArcadeGameplay.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #161617;
+}
+
+#arcade-UI {
+    background-image: url("images/ArcadeUI.PNG");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #161617;
+}
+
+#farm-a {
+    background-image: url("images/Farm_1.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #161617;
+}
+
+#farm-b {
+    background-image: url("images/Farm_2.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #161617;
+}
+
+#crab-gameplay {
+    background-image: url("images/CrabGameplay.gif");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-color: #161617;
 }
 
 #arx-movement {
